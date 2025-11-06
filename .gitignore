@@ -1,0 +1,12 @@
+llama.cpp/
+unsloth_compiled_cache/
+oral-exam-professor.gguf
+dataset_dump.jsonl
+.ipynb_checkpoints
+Copy_of_Fine_Tuning.ipynb
+.git
+oral_exam_model/
+oral_exam_model_for_gguf/
+oral_exam_model_final
+oral_exam_model_merged/
+venv

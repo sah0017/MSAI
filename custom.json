@@ -1,0 +1,252 @@
+[
+    {
+    "paragraphs": [
+      {
+        "context": "Algorithm complexity analysis is a fundamental concept in computer science that measures how the runtime or space requirements of an algorithm grow as the input size increases. Big O notation is the most common way to express this complexity, describing the upper bound of an algorithm's growth rate. For example, a linear search through an unsorted array has O(n) complexity because in the worst case, you must examine every element. Binary search, which requires a sorted array, achieves O(log n) complexity by repeatedly dividing the search space in half. More complex algorithms like quicksort have an average case complexity of O(n log n), though the worst case can degrade to O(n²) with poor pivot selection. Understanding these complexities helps developers choose appropriate algorithms for their specific use cases. In practice, constant factors and lower-order terms are often ignored in Big O notation because they become insignificant as n grows large. However, for small datasets, an O(n²) algorithm with a small constant factor might actually outperform an O(n log n) algorithm with a large constant factor. This is why theoretical complexity analysis must be balanced with empirical testing. CANNOTANSWER",
+        "qas": [
+          {
+            "followup": "m",
+            "yesno": "x",
+            "question": "What does Big O notation represent in algorithm analysis?",
+            "answers": [
+              {
+                "text": "Big O notation is the most common way to express this complexity, describing the upper bound of an algorithm's growth rate.",
+                "answer_start": 178
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#0",
+            "orig_answer": {
+              "text": "Big O notation is the most common way to express this complexity, describing the upper bound of an algorithm's growth rate.",
+              "answer_start": 178
+            }
+          },
+          {
+            "followup": "y",
+            "yesno": "x",
+            "question": "Can you explain the difference between linear search and binary search complexity?",
+            "answers": [
+              {
+                "text": "a linear search through an unsorted array has O(n) complexity because in the worst case, you must examine every element. Binary search, which requires a sorted array, achieves O(log n) complexity by repeatedly dividing the search space in half.",
+                "answer_start": 316
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#1",
+            "orig_answer": {
+              "text": "a linear search through an unsorted array has O(n) complexity because in the worst case, you must examine every element. Binary search, which requires a sorted array, achieves O(log n) complexity by repeatedly dividing the search space in half.",
+              "answer_start": 316
+            }
+          },
+          {
+            "followup": "m",
+            "yesno": "x",
+            "question": "What is the average case complexity of quicksort?",
+            "answers": [
+              {
+                "text": "quicksort have an average case complexity of O(n log n)",
+                "answer_start": 598
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#2",
+            "orig_answer": {
+              "text": "quicksort have an average case complexity of O(n log n)",
+              "answer_start": 598
+            }
+          },
+          {
+            "followup": "y",
+            "yesno": "x",
+            "question": "Why are constant factors ignored in Big O notation?",
+            "answers": [
+              {
+                "text": "constant factors and lower-order terms are often ignored in Big O notation because they become insignificant as n grows large.",
+                "answer_start": 809
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#3",
+            "orig_answer": {
+              "text": "constant factors and lower-order terms are often ignored in Big O notation because they become insignificant as n grows large.",
+              "answer_start": 809
+            }
+          },
+          {
+            "followup": "n",
+            "yesno": "y",
+            "question": "Can an O(n²) algorithm ever outperform an O(n log n) algorithm?",
+            "answers": [
+              {
+                "text": "for small datasets, an O(n²) algorithm with a small constant factor might actually outperform an O(n log n) algorithm with a large constant factor.",
+                "answer_start": 948
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#4",
+            "orig_answer": {
+              "text": "for small datasets, an O(n²) algorithm with a small constant factor might actually outperform an O(n log n) algorithm with a large constant factor.",
+              "answer_start": 948
+            }
+          },
+          {
+            "followup": "n",
+            "yesno": "x",
+            "question": "What should be balanced with theoretical complexity analysis?",
+            "answers": [
+              {
+                "text": "theoretical complexity analysis must be balanced with empirical testing.",
+                "answer_start": 1109
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#5",
+            "orig_answer": {
+              "text": "theoretical complexity analysis must be balanced with empirical testing.",
+              "answer_start": 1109
+            }
+          },
+          {
+            "followup": "n",
+            "yesno": "x",
+            "question": "What happens to quicksort in the worst case?",
+            "answers": [
+              {
+                "text": "the worst case can degrade to O(n²) with poor pivot selection.",
+                "answer_start": 663
+              }
+            ],
+            "id": "CS_algorithm_complexity_1_q#6",
+            "orig_answer": {
+              "text": "the worst case can degrade to O(n²) with poor pivot selection.",
+              "answer_start": 663
+            }
+          }
+        ],
+        "id": "CS_algorithm_complexity_1"
+      }
+    ],
+    "section_title": "Algorithm Complexity Analysis",
+    "background": "Algorithm complexity is a core concept in computer science that helps developers understand how efficiently their code will perform as data scales. It provides a mathematical framework for comparing different algorithmic approaches and making informed decisions about which algorithms to use in production systems. Mastery of complexity analysis is essential for technical interviews and real-world software engineering.",
+    "title": "Algorithm Complexity"
+    },
+    {
+    "paragraphs": [
+      {
+        "context": "Cellular respiration is the process by which biological cells convert glucose and oxygen into energy in the form of ATP (adenosine triphosphate), carbon dioxide, and water. This process occurs in three main stages: glycolysis, the Krebs cycle (also called the citric acid cycle), and the electron transport chain. Glycolysis takes place in the cytoplasm and breaks down one glucose molecule into two pyruvate molecules, producing a net gain of 2 ATP molecules and 2 NADH molecules. The pyruvate then enters the mitochondria where the Krebs cycle occurs in the mitochondrial matrix, generating 2 ATP, 6 NADH, and 2 FADH2 molecules per glucose molecule. The electron transport chain, located in the inner mitochondrial membrane, uses the NADH and FADH2 to create a proton gradient that drives ATP synthesis through chemiosmosis, producing approximately 34 ATP molecules. In total, aerobic cellular respiration can yield up to 38 ATP molecules per glucose molecule, though the actual yield is often closer to 30-32 ATP due to energy costs of transporting molecules across membranes. When oxygen is not available, cells can perform anaerobic respiration or fermentation, which only includes glycolysis and produces just 2 ATP per glucose molecule, along with either lactate (in animals) or ethanol and carbon dioxide (in yeast). This is why aerobic organisms are much more energy-efficient than anaerobic ones. CANNOTANSWER",
+        "qas": [
+          {
+            "followup": "m",
+            "yesno": "x",
+            "question": "What is the primary purpose of cellular respiration?",
+            "answers": [
+              {
+                "text": "the process by which biological cells convert glucose and oxygen into energy in the form of ATP (adenosine triphosphate), carbon dioxide, and water.",
+                "answer_start": 28
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#0",
+            "orig_answer": {
+              "text": "the process by which biological cells convert glucose and oxygen into energy in the form of ATP (adenosine triphosphate), carbon dioxide, and water.",
+              "answer_start": 28
+            }
+          },
+          {
+            "followup": "y",
+            "yesno": "x",
+            "question": "What are the three main stages of cellular respiration?",
+            "answers": [
+              {
+                "text": "glycolysis, the Krebs cycle (also called the citric acid cycle), and the electron transport chain.",
+                "answer_start": 218
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#1",
+            "orig_answer": {
+              "text": "glycolysis, the Krebs cycle (also called the citric acid cycle), and the electron transport chain.",
+              "answer_start": 218
+            }
+          },
+          {
+            "followup": "m",
+            "yesno": "x",
+            "question": "Where does glycolysis occur and what does it produce?",
+            "answers": [
+              {
+                "text": "Glycolysis takes place in the cytoplasm and breaks down one glucose molecule into two pyruvate molecules, producing a net gain of 2 ATP molecules and 2 NADH molecules.",
+                "answer_start": 318
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#2",
+            "orig_answer": {
+              "text": "Glycolysis takes place in the cytoplasm and breaks down one glucose molecule into two pyruvate molecules, producing a net gain of 2 ATP molecules and 2 NADH molecules.",
+              "answer_start": 318
+            }
+          },
+          {
+            "followup": "y",
+            "yesno": "x",
+            "question": "How much ATP does the electron transport chain produce?",
+            "answers": [
+              {
+                "text": "producing approximately 34 ATP molecules.",
+                "answer_start": 838
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#3",
+            "orig_answer": {
+              "text": "producing approximately 34 ATP molecules.",
+              "answer_start": 838
+            }
+          },
+          {
+            "followup": "n",
+            "yesno": "x",
+            "question": "What is the total ATP yield from aerobic respiration?",
+            "answers": [
+              {
+                "text": "aerobic cellular respiration can yield up to 38 ATP molecules per glucose molecule, though the actual yield is often closer to 30-32 ATP",
+                "answer_start": 891
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#4",
+            "orig_answer": {
+              "text": "aerobic cellular respiration can yield up to 38 ATP molecules per glucose molecule, though the actual yield is often closer to 30-32 ATP",
+              "answer_start": 891
+            }
+          },
+          {
+            "followup": "m",
+            "yesno": "x",
+            "question": "What happens during anaerobic respiration?",
+            "answers": [
+              {
+                "text": "cells can perform anaerobic respiration or fermentation, which only includes glycolysis and produces just 2 ATP per glucose molecule, along with either lactate (in animals) or ethanol and carbon dioxide (in yeast).",
+                "answer_start": 1113
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#5",
+            "orig_answer": {
+              "text": "cells can perform anaerobic respiration or fermentation, which only includes glycolysis and produces just 2 ATP per glucose molecule, along with either lactate (in animals) or ethanol and carbon dioxide (in yeast).",
+              "answer_start": 1113
+            }
+          },
+          {
+            "followup": "n",
+            "yesno": "y",
+            "question": "Are aerobic organisms more energy-efficient than anaerobic ones?",
+            "answers": [
+              {
+                "text": "aerobic organisms are much more energy-efficient than anaerobic ones.",
+                "answer_start": 1343
+              }
+            ],
+            "id": "BIO_cellular_respiration_1_q#6",
+            "orig_answer": {
+              "text": "aerobic organisms are much more energy-efficient than anaerobic ones.",
+              "answer_start": 1343
+            }
+          }
+        ],
+        "id": "BIO_cellular_respiration_1"
+      }
+    ],
+    "section_title": "Energy Production in Cells",
+    "background": "Cellular respiration is one of the most important biochemical processes in living organisms. It is the primary method by which cells extract usable energy from nutrients. Understanding cellular respiration is fundamental to biology, biochemistry, and medicine, as disruptions in this process can lead to various diseases and metabolic disorders.",
+    "title": "Cellular Respiration"
+    }
+]
